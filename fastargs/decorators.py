@@ -28,8 +28,8 @@ class WrappedFunction:
 
             value = config[path]
 
-            if value is not None:
-                filled_args[alias] = value
+            #if value is not None:
+            filled_args[alias] = value
 
         filled_args.update(kwargs)
 
